@@ -1,0 +1,46 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+/* Button prev and next */
+.swiper>div::after {
+  background-color: #00000080;
+  color: var(--primary-color);
+  padding: var(--size16);
+  font-size: var(--size28);
+}
+
+.swiperSlide {
+  user-select: none;
+}
+
+.swiperSlide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 16 / 9;
+  border: 1px solid var(--body);
+  transition: 0.4s;
+}
+
+.swiperSlide {
+  width: 80%;
+}
+
+.swiperSlide img:hover {
+  filter: contrast(60%);
+  border: 1px solid var(--primary-color);
+}
+
+@media (max-width: 36rem) {
+  .swiper>div::after {
+    display: none;
+  }
+
+  .swiperSlide img:hover {
+    filter: contrast(100%);
+    border: 1px solid var(--body);
+  }
+}

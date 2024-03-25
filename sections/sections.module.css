@@ -1,0 +1,39 @@
+.section {
+  padding: var(--size40);
+  animation: var(--animation-fade-in);
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  gap: var(--size20);
+  margin-bottom: var(--size20);
+}
+
+.title {
+  font-size: var(--size28);
+  font-size: clamp(var(--size24), 0.567vw + 1.297rem, var(--size28));
+  font-weight: 500;
+}
+
+.buttonSeeAll {
+  font-size: var(--size16);
+  font-weight: 400;
+  color: var(--primary-color);
+  transition: opacity 0.4s;
+}
+
+.buttonSeeAll:hover {
+  opacity: .85;
+}
+
+@media (max-width: 51.25rem) {
+  .section {
+    padding: var(--size40) var(--size20);
+  }
+
+  .title {
+    font-size: var(--size24);
+    font-size: clamp(var(--size24), 0.567vw + 1.297rem, var(--size28));
+  }
+}

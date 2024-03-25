@@ -1,0 +1,48 @@
+.section {
+  padding: var(--size40) var(--size40) var(--size80);
+}
+
+.containerButtons {
+  display: flex;
+  gap: var(--size20);
+  justify-content: space-between;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.containerButtons a {
+  padding: var(--size20);
+  background-color: #4141414f;
+  border: 2px solid #ffffff17;
+  color: var(--primary-color);
+  text-align: center;
+  flex: 1;
+  transition: opacity 0.4s;
+}
+
+.containerButtons a:hover {
+  opacity: 0.85;
+}
+
+.containerButtons svg {
+  width: var(--size30);
+  height: var(--size30);
+  vertical-align: middle;
+}
+
+@media (max-width: 51.25rem) {
+  .section {
+    padding: var(--size40) var(--size20) var(--size80);
+  }
+}
+
+@media (max-width: 36rem) {
+  .containerButtons a {
+    padding: var(--size10);
+    font-size: var(--size14);
+  }
+
+  .containerButtons a:hover {
+    opacity: 1;
+  }
+}

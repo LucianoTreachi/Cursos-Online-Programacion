@@ -1,0 +1,18 @@
+.logo {
+  font-size: var(--size16);
+  transition: opacity 0.4s;
+}
+
+.logo:hover {
+  opacity: .8;
+}
+
+@media (max-width: 36rem) {
+  .logo {
+    font-size: var(--size14);
+  }
+
+  .logo:hover {
+    opacity: 1;
+  }
+}

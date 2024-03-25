@@ -1,0 +1,9 @@
+.box {
+  max-width: 100%;
+  padding: var(--size10) var(--size20);
+  border: 2px solid #898e12;
+  border-radius: var(--size16);
+  background-color: #323b4150;
+  font-size: var(--size18);
+  color: #f0f0f090;
+}

@@ -1,0 +1,20 @@
+.button {
+  background-color: transparent;
+  color: var(--white);
+  font-size: var(--size16);
+  opacity: .7;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: var(--size20);
+  transition: opacity 0.4s;
+}
+
+.button:hover {
+  opacity: .85;
+}
+
+.button svg {
+  width: var(--size22);
+  height: var(--size22);
+}

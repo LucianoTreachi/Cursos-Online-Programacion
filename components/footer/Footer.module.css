@@ -1,0 +1,27 @@
+.footer {
+  padding: var(--size40);
+  background-color: #0a0a0a;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.paragraph {
+  color: #d0dfff;
+}
+
+.span {
+  font-size: var(--size12);
+  font-weight: 300;
+  line-height: 1.4;
+  opacity: .7;
+}
+
+@media (max-width: 36rem) {
+  .footer {
+    padding: var(--size40) var(--size20);
+  }
+}

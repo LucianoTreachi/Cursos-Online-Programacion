@@ -1,0 +1,87 @@
+:root {
+  /* Colors */
+  --body: #0a0d18;
+  --black: #020202;
+  --white: #f0f0f0;
+  --primary-color: #7fffd4;
+  --secondary-color: #d0dfff;
+
+  /* Sizes */
+  --size8: 0.5rem;
+  --size10: 0.625rem;
+  --size12: 0.75rem;
+  --size14: 0.875rem;
+  --size16: 1rem;
+  --size18: 1.125rem;
+  --size20: 1.25rem;
+  --size22: 1.375rem;
+  --size24: 1.5rem;
+  --size26: 1.625rem;
+  --size28: 1.75rem;
+  --size30: 1.875rem;
+  --size34: 2.125rem;
+  --size36: 2.25rem;
+  --size40: 2.5rem;
+  --size60: 3.75rem;
+  --size80: 5rem;
+  --size100: 6.25rem;
+  --size120: 7.5rem;
+
+  /* Media Query */
+  /* 820px */
+  --tablet: 51.25rem;
+  /* 576px */
+  --mobile: 36rem;
+
+  /* Animation */
+  --animation-fade-in: fade-in .4s backwards .2s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: var(--body);
+  color: var(--white);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button,
+input,
+textarea,
+select {
+  font-size: inherit;
+  font-family: inherit;
+  border: none;
+  outline: none;
+  letter-spacing: 0.025em;
+}
+
+p {
+  text-wrap: balance;
+  line-height: 1.4;
+  letter-spacing: 0.025em;
+  font-weight: 300;
+  opacity: .85;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}

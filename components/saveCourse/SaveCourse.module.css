@@ -1,0 +1,57 @@
+.button {
+  border: 0;
+  background-color: #323b4180;
+  border-radius: var(--size10);
+  padding: var(--size16);
+  transition: opacity 0.4s;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+  text-align: left;
+}
+
+.button:hover {
+  opacity: .85;
+}
+
+.heartIcon {
+  width: var(--size26);
+  height: var(--size26);
+  fill: var(--white);
+  opacity: .85;
+  cursor: pointer;
+}
+
+.heartFillIcon {
+  width: var(--size26);
+  height: var(--size26);
+  fill: red;
+  cursor: pointer;
+}
+
+.button span {
+  font-size: var(--size14);
+  color: var(--white);
+  opacity: .85;
+}
+
+@media (max-width: 36rem) {
+  .button {
+    padding: var(--size12);
+  }
+
+  .button:hover {
+    opacity: 1;
+  }
+
+  .heartIcon {
+    width: var(--size24);
+    height: var(--size24);
+  }
+
+  .heartFillIcon {
+    width: var(--size24);
+    height: var(--size24);
+  }
+}

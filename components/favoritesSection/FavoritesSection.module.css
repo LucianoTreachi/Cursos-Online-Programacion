@@ -1,0 +1,53 @@
+.section {
+  min-height: 100vh;
+  padding: var(--size40);
+  animation: var(--animation-fade-in);
+}
+
+.title {
+  margin-top: var(--size40);
+  font-size: var(--size34);
+  font-size: clamp(var(--size26), 1.133vw + 1.218rem, var(--size34));
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.paragraph {
+  margin-top: var(--size20);
+}
+
+.favoritesCourses {
+  margin-top: var(--size40);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--size20);
+}
+
+.favoritesCourses img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+  aspect-ratio: 16 / 9;
+  transition: 0.4s;
+}
+
+@media (max-width: 51.25rem) {
+  .section {
+    padding: var(--size40) var(--size20);
+  }
+
+  .title {
+    font-size: var(--size26);
+    font-size: clamp(var(--size26), 1.133vw + 1.218rem, var(--size34));
+  }
+
+  .favoritesCourses {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 36rem) {
+  .favoritesCourses {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

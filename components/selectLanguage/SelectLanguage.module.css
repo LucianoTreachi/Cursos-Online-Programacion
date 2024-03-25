@@ -1,0 +1,36 @@
+.containerSelect {
+  position: relative;
+  overflow: hidden;
+  width: 7.5rem;
+}
+
+.containerSelect svg {
+  position: absolute;
+  top: 60%;
+  transform: translateY(-60%);
+  right: .6rem;
+  width: var(--size22);
+  height: var(--size22);
+  opacity: .85;
+  pointer-events: none;
+}
+
+.select {
+  font-size: var(--size14);
+  font-weight: 300;
+  color: var(--white);
+  opacity: .85;
+  padding: var(--size10) var(--size20);
+  width: 100%;
+  background-color: var(--body);
+  border: 2px solid #e1e1e1;
+  border-radius: var(--size10);
+  cursor: pointer;
+
+  /* All */
+  appearance: none;
+  /* Chrome y Safari */
+  -webkit-appearance: none;
+  /* Firefox */
+  -moz-appearance: none;
+}
