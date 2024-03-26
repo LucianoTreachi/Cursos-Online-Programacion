@@ -1058,6 +1058,22 @@ export const data = [
         iframeSrc:
           "https://www.youtube.com/embed/wm5gMKuwSYk?si=LGEvRCH4UdHP3EMG",
       },
+      /* Dave Gray */
+      {
+        url: "curso-de-next-dave-gray",
+        title:
+          "Curso completo de Next.js 13 para principiantes",
+        description:
+          "Este curso completo de Next.js para principiantes es un tutorial todo en uno con más de 7 horas de contenido e instrucciones para mejorar sus habilidades de desarrollo web.",
+        author: "Creado por Dave Gray",
+        date: "2023",
+        duration: "7h 03min",
+        language: "Inglés",
+        image:
+          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1711456613/courses/next-dave-gray_hrrary.jpg",
+        iframeSrc:
+          "https://www.youtube.com/embed/843nec-IvW0?si=Zppk6ctt38ORDOh8",
+      },
     ],
   },
 
