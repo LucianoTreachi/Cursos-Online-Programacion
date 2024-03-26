@@ -10,7 +10,7 @@ export const metadata = {
   title: "Cursos Online de Programación",
   description:
     "Encuentra los mejores cursos online de programación en un solo lugar. Aprende de los mejores profesionales de la industria hoy mismo.",
-  metadataBase: new URL("https://projectofreelance.vercel.app/"),
+  metadataBase: new URL("https://cursosonlinedeprogramacion.vercel.app/"),
 };
 
 export default function RootLayout({ children }) {
