@@ -42,6 +42,7 @@ export default function Carousel({ courses }) {
               loading="lazy"
             />
           </Link>
+          <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </SwiperSlide>
       ))}
     </Swiper>
