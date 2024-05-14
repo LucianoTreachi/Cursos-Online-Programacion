@@ -2,7 +2,7 @@ import { getAllCourses } from "@/utils/getAllCourses";
 import Courses from "@/components/courses/Courses";
 
 export const metadata = {
-  title: "Cursos Online de Programación - React Native",
+  title: "Cursos de React Native",
 };
 
 export default async function ReactNativePage() {

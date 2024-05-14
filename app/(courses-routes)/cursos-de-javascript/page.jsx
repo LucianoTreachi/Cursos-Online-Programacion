@@ -2,7 +2,7 @@ import { getAllCourses } from "@/utils/getAllCourses";
 import Courses from "@/components/courses/Courses";
 
 export const metadata = {
-  title: "Cursos Online de Programación - JavaScript",
+  title: "Cursos de JavaScript",
 };
 
 export default async function JavaScriptPage() {

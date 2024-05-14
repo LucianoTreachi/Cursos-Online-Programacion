@@ -3,7 +3,7 @@ import Loader from "@/components/loader/Loader";
 import FavoritesSection from "@/components/favoritesSection/FavoritesSection";
 
 export const metadata = {
-  title: "Cursos Online de Programación - Favoritos",
+  title: "Cursos Favoritos",
 };
 
 export default function FavoritesPage() {

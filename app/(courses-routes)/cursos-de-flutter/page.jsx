@@ -2,7 +2,7 @@ import { getAllCourses } from "@/utils/getAllCourses";
 import Courses from "@/components/courses/Courses";
 
 export const metadata = {
-  title: "Cursos Online de Programación - Flutter",
+  title: "Cursos de Flutter",
 };
 
 export default async function FlutterPage() {

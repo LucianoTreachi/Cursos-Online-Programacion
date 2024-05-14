@@ -2,7 +2,7 @@ import { getAllCourses } from "@/utils/getAllCourses";
 import Courses from "@/components/courses/Courses";
 
 export const metadata = {
-  title: "Cursos Online de Programación - Kotlin",
+  title: "Cursos de Kotlin",
 };
 
 export default async function KotlinPage() {

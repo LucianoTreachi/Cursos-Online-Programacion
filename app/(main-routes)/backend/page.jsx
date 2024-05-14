@@ -12,7 +12,7 @@ import MongoSection from "@/sections/MongoSection";
 import NavigationLinks from "@/components/navigationLinks/NavigationLinks";
 
 export const metadata = {
-  title: "Cursos Online de Programación - Backend",
+  title: "Ruta Backend",
 };
 
 export default function BackendPage() {

@@ -2,7 +2,7 @@ import { getAllCourses } from "@/utils/getAllCourses";
 import Courses from "@/components/courses/Courses";
 
 export const metadata = {
-  title: "Cursos Online de Programación - Tailwind",
+  title: "Cursos de Tailwind",
 };
 
 export default async function TypeScriptPage() {

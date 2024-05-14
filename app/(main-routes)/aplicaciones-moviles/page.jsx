@@ -8,7 +8,7 @@ import FlutterSection from "@/sections/FlutterSection";
 import NavigationLinks from "@/components/navigationLinks/NavigationLinks";
 
 export const metadata = {
-  title: "Cursos Online de Programación - Aplicaciones Móviles",
+  title: "Ruta Aplicaciones Móviles",
 };
 
 export default function MobilePage() {

@@ -2,7 +2,7 @@ import { getAllCourses } from "@/utils/getAllCourses";
 import Courses from "@/components/courses/Courses";
 
 export const metadata = {
-  title: "Cursos Online de Programación - SQL",
+  title: "Cursos de SQL",
 };
 
 export default async function SqlPage() {

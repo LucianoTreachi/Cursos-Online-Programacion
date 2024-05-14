@@ -2,7 +2,7 @@ import { getAllCourses } from "@/utils/getAllCourses";
 import Courses from "@/components/courses/Courses";
 
 export const metadata = {
-  title: "Cursos Online de Programación - MongoDB",
+  title: "Cursos de MongoDB",
 };
 
 export default async function MongoPage() {
