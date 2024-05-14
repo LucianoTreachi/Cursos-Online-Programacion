@@ -14,7 +14,7 @@ export default function SaveCourse({ imageCourse, urlCourse }) {
 
   // Check if the course is in favorites based on the image
   const isFavorite = favoritesCourses.some(
-    (course) => course.image === imageCourse
+    (course) => course.thumbnail === imageCourse
   );
 
   // Manage the state of the button
@@ -27,12 +27,12 @@ export default function SaveCourse({ imageCourse, urlCourse }) {
       // Add the course to favorites if it's not already included
       setFavoritesCourses([
         ...favoritesCourses,
-        { image: imageCourse, url: urlCourse },
+        { thumbnail: imageCourse, url: urlCourse },
       ]);
     } else {
       // Remove the course from favorites if it's already included
       const updatedFavorites = favoritesCourses.filter(
-        (course) => course.image !== imageCourse
+        (course) => course.thumbnail !== imageCourse
       );
       setFavoritesCourses(updatedFavorites);
     }

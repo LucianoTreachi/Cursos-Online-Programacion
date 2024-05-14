@@ -7,7 +7,7 @@ import GoBackButton from "@/components/goBackButton/GoBackButton";
 import CalendarIcon from "@/icons/CalendarIcon";
 import ClockIcon from "@/icons/ClockIcon";
 import GlobalIcon from "@/icons/GlobalIcon";
-import Iframe from "@/components/iframe/Iframe";
+import Video from "@/components/video/Video";
 import ShareCourse from "@/components/shareCourse/ShareCourse";
 import SaveCourse from "@/components/saveCourse/SaveCourse";
 import styles from "./page.module.css";
@@ -73,14 +73,15 @@ export default async function CoursePage({ params }) {
           </div>
 
           <div className={styles.videoContainer}>
-            <div className={styles.iframeWrapper}>
-              <Iframe src={selectedCourse.iframeSrc} />
-            </div>
+            <Video
+              thumbnail={selectedCourse.thumbnail}
+              iframe={selectedCourse.iframe}
+            />
           </div>
 
           <div className={styles.containerButtons}>
             <SaveCourse
-              imageCourse={selectedCourse.image}
+              imageCourse={selectedCourse.thumbnail}
               urlCourse={selectedCourse.url}
             />
             <ShareCourse />

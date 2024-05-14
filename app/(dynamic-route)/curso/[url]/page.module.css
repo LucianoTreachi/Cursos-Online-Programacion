@@ -51,14 +51,6 @@
 .videoContainer {
   margin: var(--size40) 0;
   position: relative;
-  width: 100%;
-}
-
-.iframeWrapper {
-  position: relative;
-  width: 100%;
-  /* Aspect ratio 16:9 */
-  padding-bottom: 56.25%;
 }
 
 .containerButtons {

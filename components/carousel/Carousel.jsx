@@ -34,13 +34,14 @@ export default function Carousel({ courses }) {
       {courses.map((course, index) => (
         <SwiperSlide className={styles.swiperSlide} key={index}>
           <Link href={`/curso/${course.url}`}>
-            <Image
-              src={course.image}
-              alt="Portada del curso"
-              width={640}
-              height={360}
-              loading="lazy"
-            />
+            <div className={styles.imageWrapper}>
+              <Image
+                src={course.thumbnail}
+                alt="Portada del curso"
+                fill
+                loading="lazy"
+              />
+            </div>
           </Link>
           <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </SwiperSlide>

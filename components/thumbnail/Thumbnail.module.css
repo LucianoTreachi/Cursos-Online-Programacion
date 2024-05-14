@@ -1,0 +1,32 @@
+.thumbnailWrapper {
+  position: relative;
+
+  /* Aspect ratio 16:9 */
+  padding-bottom: 56.25%;
+}
+
+.thumbnail {
+  object-fit: cover;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: var(--size100);
+  height: var(--size100);
+  fill: #c4302b;
+}
+
+.thumbnail:hover,
+.icon:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 36rem) {
+  .icon {
+    width: var(--size80);
+    height: var(--size80);
+  }
+}

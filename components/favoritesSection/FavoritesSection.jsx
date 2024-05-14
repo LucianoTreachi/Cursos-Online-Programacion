@@ -21,17 +21,16 @@ export default function FavoritesSection() {
         ) : (
           <div className={styles.favoritesCourses}>
             {favoritesCourses.map((course, index) => (
-              <div className={styles.card} key={index}>
-                <Link href={`/curso/${course.url}`}>
+              <Link href={`/curso/${course.url}`} key={index}>
+                <div className={styles.imageWrapper}>
                   <Image
-                    src={course.image}
+                    src={course.thumbnail}
                     alt="Portada del curso"
-                    width={640}
-                    height={360}
+                    fill
                     priority
                   />
-                </Link>
-              </div>
+                </div>
+              </Link>
             ))}
           </div>
         )}

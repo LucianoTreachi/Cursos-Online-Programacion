@@ -13,9 +13,8 @@ export const data = [
         date: "2024",
         duration: "24h",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710718775/courses/html-dalto_kzosmf.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/ELSm-G201Ls/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/ELSm-G201Ls?si=h_DueK7RJo19jBh7",
       },
       /* Miguel Ángel Durán */
@@ -28,9 +27,8 @@ export const data = [
         date: "2023",
         duration: "1h 54min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1709390214/courses/html-midu_au00v3.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/3nYLTiY5skU/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/3nYLTiY5skU?si=4aGVu_PcwKNNok2m",
       },
       /* Nicolás Schürmann */
@@ -43,9 +41,8 @@ export const data = [
         date: "2021",
         duration: "1h 33min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1709391166/courses/html-nico_puxxsn.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/MJkdaVFHrto/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/MJkdaVFHrto?si=HaSu26J5p-N5tKH8",
       },
       /* Sergie Code */
@@ -58,9 +55,8 @@ export const data = [
         date: "2023",
         duration: "2h 55min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1709391567/courses/html-sergie_tsx2fn.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/bNV6iw13Rnk/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/bNV6iw13Rnk?si=YD0SexhnyYLjKXo-",
       },
       /* Jordan Alexander */
@@ -73,9 +69,8 @@ export const data = [
         date: "2023",
         duration: "2h 31min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1709390731/courses/html-alexander_afql5d.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/7AJidhVn6yk/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/7AJidhVn6yk?si=5AEnIz7Kwz5UGr0U",
       },
       /* Dave Gray */
@@ -88,9 +83,8 @@ export const data = [
         date: "2022",
         duration: "4h 07min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1709480040/courses/html-dave_myclgc.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/kUMe1FH4CHE/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/kUMe1FH4CHE?si=v7ZYBkqPQ3pOvdTP",
       },
     ],
@@ -110,9 +104,8 @@ export const data = [
         date: "2021",
         duration: "2h 05min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1709403030/courses/css-nico_evtywk.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/wZniZEbPAzk/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/wZniZEbPAzk?si=8699PxaNYIqIsB7-",
       },
       /* Sergie Code */
@@ -125,9 +118,8 @@ export const data = [
         date: "2023",
         duration: "6h 12min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1709403030/courses/css-sergie_rxrct8.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/rTtC6Q-71qg/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/rTtC6Q-71qg?si=5b-Z617T9xEnScZK",
       },
       /* Miguel Ángel Durán */
@@ -140,9 +132,8 @@ export const data = [
         date: "2023",
         duration: "1h 43min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1709402314/courses/css-midu_g5vsan.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/hrxjBqZWsb0/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/hrxjBqZWsb0?si=GpDUo4hK8kYSzid0",
       },
       /* Jordan Alexander */
@@ -155,9 +146,8 @@ export const data = [
         date: "2020",
         duration: "9h 47min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710719231/courses/css-alexander_zr0yqs.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/WfDqFArJnYA/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/WfDqFArJnYA?si=xUp3DvQfX-nf_oYE",
       },
       /* Dave Gray */
@@ -170,9 +160,8 @@ export const data = [
         date: "2022",
         duration: "11h 08min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1709403030/courses/css-dave_p7ollj.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/n4R2E7O-Ngo/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/n4R2E7O-Ngo?si=VtGd8k5r92ElMeYh",
       },
       /* Free Code Camp */
@@ -185,9 +174,8 @@ export const data = [
         date: "2019",
         duration: "6h 18min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1709480848/courses/css-freeCodeCamp_wtjjn9.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/1Rs2ND1ryYc/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/1Rs2ND1ryYc?si=58QJEXtqKbaFFaNL",
       },
     ],
@@ -207,9 +195,8 @@ export const data = [
         date: "2023",
         duration: "14h 19min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1709405844/courses/javascript-falcon-masters_mtvhop.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/Eh-s-n_6zNQ/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/Eh-s-n_6zNQ?si=TTWvVY3lqa96F12V",
       },
       /* Estefania Cassingena Navone */
@@ -222,9 +209,8 @@ export const data = [
         date: "2021",
         duration: "9h 15min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710702674/courses/javascript-estefania_wlxp2h.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/ivdTnPl1ND0/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/ivdTnPl1ND0?si=0NipxBylWZpwq-gj",
       },
       /* Nicolás Schürmann */
@@ -238,9 +224,8 @@ export const data = [
         date: "2024",
         duration: "3h 58min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1709405844/courses/javascript-nico_qq1mam.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/QoC4RxNIs5M/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/QoC4RxNIs5M?si=Hf8EJ3-pw3vJhkoc",
       },
       /* Sergie Code */
@@ -253,9 +238,8 @@ export const data = [
         date: "2023",
         duration: "8h 16min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1709405844/courses/javascript-sergie_oxddqf.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/N8Xt5rP_DUo/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/N8Xt5rP_DUo?si=4GKZuVAFR02pXie0",
       },
       /* Lucas Dalto */
@@ -268,9 +252,8 @@ export const data = [
         date: "2020",
         duration: "10h 00min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1709405844/courses/javascript-dalto_nju7qy.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/z95mZVUcJ-E/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/z95mZVUcJ-E?si=BM9H94Y6IygJuKSp",
       },
       /* Bro Code */
@@ -283,9 +266,8 @@ export const data = [
         date: "2020",
         duration: "12h 00min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1709487322/courses/javascript-bro-code_n2cqg6.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/lfmg-EJ8gm4/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/lfmg-EJ8gm4?si=vnKc3BsmpexejNrl",
       },
     ],
@@ -305,9 +287,8 @@ export const data = [
         date: "2022",
         duration: "8h 30min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710702677/courses/node-estefania_oox8xh.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/1hpc70_OoAg/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/1hpc70_OoAg?si=I6KRnpI2A95TkMCh",
       },
       /* Sergie Code */
@@ -320,9 +301,8 @@ export const data = [
         date: "2024",
         duration: "5h 39min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710683483/courses/node-sergie_vsdzuf.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/I17ln313Pjk/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/I17ln313Pjk?si=04am5uq_RkxhA7w7",
       },
       /* Miguel Ángel Durán */
@@ -335,9 +315,8 @@ export const data = [
         date: "2024",
         duration: "2h 18min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710685151/courses/node-midu_dx3j4b.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/yB4n_K7dZV8/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/yB4n_K7dZV8?si=1SiyKGb0YDnfLQ2v",
       },
       /* Fazt */
@@ -350,9 +329,8 @@ export const data = [
         date: "2022",
         duration: "4h 42min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710685861/courses/node-fazt_bo1dte.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/i3OdKwuBjeM/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/i3OdKwuBjeM?si=ujkxsW0n9Sq8EkUN",
       },
       /* Dave Gray */
@@ -365,9 +343,8 @@ export const data = [
         date: "2021",
         duration: "6h 50min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710686139/courses/node-dave-gray_fq0ch2.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/f2EqECiTBL8/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/f2EqECiTBL8?si=IrVBybqhSV97MozW",
       },
     ],
@@ -387,9 +364,8 @@ export const data = [
         date: "2022",
         duration: "10h 07min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710686857/courses/phyton-brais-moure_zsb1op.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/Kp4Mvapo5kc/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/Kp4Mvapo5kc?si=3pCckbwHWG2FSLoj",
       },
       /* Lucas Dalto */
@@ -402,9 +378,8 @@ export const data = [
         date: "2023",
         duration: "8h 06min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710687442/courses/phyton-dalto_hmc7h1.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/nKPbfIU442g/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/nKPbfIU442g?si=9Ji37Azzj2uxZxEB",
       },
       /* Nicolás Schürmann */
@@ -417,9 +392,8 @@ export const data = [
         date: "2023",
         duration: "5h 05min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710688064/courses/phyton-nico_zaodxn.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/tQZy0U8s9LY/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/tQZy0U8s9LY?si=Ihln47_cVa7hhmIU",
       },
       /* Fazt */
@@ -432,9 +406,8 @@ export const data = [
         date: "2019",
         duration: "3h 15min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710688565/courses/phyton-fazt_jso87q.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/chPhlsHoEPo/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/chPhlsHoEPo?si=eZWOEmTwDYYcItNa",
       },
       /* Dave Gray */
@@ -447,9 +420,8 @@ export const data = [
         date: "2020",
         duration: "8h 38min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710689073/courses/phyton-dave-gray_wh4pzr.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/H2EJuAcrZYU/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/H2EJuAcrZYU?si=5VovHXXEtUHxLcOm",
       },
     ],
@@ -469,9 +441,8 @@ export const data = [
         date: "2022",
         duration: "3h 29min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710852291/courses/django-fazt_lxcjqg.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/T1intZyhXDU/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/T1intZyhXDU?si=i1LtKkeHEtCOR3Nl",
       },
       /* Solo Python */
@@ -484,9 +455,8 @@ export const data = [
         date: "2021",
         duration: "1h 59min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710853144/courses/django-solo-phyton_nzwufc.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/mQ0IUy_18mI/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/mQ0IUy_18mI?si=JKJNmdeQBtAuVK2a",
       },
       /* Dr. Chuck */
@@ -499,9 +469,8 @@ export const data = [
         date: "2021",
         duration: "18h 32min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710855283/courses/django-chuck_qrfwl2.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/o0XbHvKxw7Y/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/o0XbHvKxw7Y?si=GjMx-aNKZsTtldI7",
       },
       /* Dennis Ivy */
@@ -514,9 +483,8 @@ export const data = [
         date: "2021",
         duration: "7h 10min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710855951/courses/django-dennis-ivy_ssqpia.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/PtQiiknWUcI/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/PtQiiknWUcI?si=mqNR7LhUeZasmSR8",
       },
       /* Mosh Hamedani */
@@ -529,9 +497,8 @@ export const data = [
         date: "2021",
         duration: "1h 02min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710856391/courses/django-mosh_zq1ty1.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/rHux0gMZ3Eg/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/rHux0gMZ3Eg?si=tZ4M0xoa_y82O6qc",
       },
     ],
@@ -551,9 +518,8 @@ export const data = [
         date: "2023",
         duration: "1h 00min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1709488391/courses/java-brais-moure_za0jbr.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/W86KTBSiX2o/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/W86KTBSiX2o?si=5AmNuumDUfx6V7rD",
       },
       /* Lucas Moy */
@@ -566,9 +532,8 @@ export const data = [
         date: "2021",
         duration: "6h 52min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1709552353/courses/java-lucas-moy_hpornu.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/Z8zAKYLZBqc/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/Z8zAKYLZBqc?si=6duHzpMEpUl-NjeA",
       },
       /* Programación Fácil */
@@ -581,9 +546,8 @@ export const data = [
         date: "2023",
         duration: "6h 52min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1709551411/courses/java-programacion-facil_py72vd.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/Bi9AmOBDJGY/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/Bi9AmOBDJGY?si=bncP4-fHC5vBri9v",
       },
       /* Art0xdev */
@@ -596,9 +560,8 @@ export const data = [
         date: "2023",
         duration: "2h 43min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1709552515/courses/java-Art0xdev_yzzwnp.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/wyhPQ2t_MOI/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/wyhPQ2t_MOI?si=KRhq93PjSfdi1BNp",
       },
       /* Bro Code */
@@ -611,9 +574,8 @@ export const data = [
         date: "2020",
         duration: "12h 00min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1709490500/courses/java-bro-code_fvtjbu.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/xk4_1vDrzzo/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/xk4_1vDrzzo?si=hPsrec5INwNKhFeb",
       },
     ],
@@ -633,9 +595,8 @@ export const data = [
         date: "2023",
         duration: "1h 12min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710698481/courses/php-brais-moure_ctn0wd.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/nPCJAx5c1uE/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/nPCJAx5c1uE?si=NttNOF8zbsnIPr4H",
       },
       /* Oscar Uh */
@@ -648,9 +609,8 @@ export const data = [
         date: "2021",
         duration: "7h 29min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710698481/courses/php-oscar-uh_vuaj1g.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/nCB1gEkRZ1g/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/nCB1gEkRZ1g?si=U1c6ukpEF-EWsWq0",
       },
       /* Lucas Moy */
@@ -663,9 +623,8 @@ export const data = [
         date: "2021",
         duration: "6h 59min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710699174/courses/php-lucas-moy_o6z6cu.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/mX0z6wSWJtA/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/mX0z6wSWJtA?si=kkqLQqU1Ed-Egw9k",
       },
       /* Bro Code */
@@ -678,9 +637,8 @@ export const data = [
         date: "2019",
         duration: "4h 00min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710699512/courses/php-bro-code_zz70m1.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/zZ6vybT1HQs/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/zZ6vybT1HQs?si=nSwjw2YM4TVJygwE",
       },
       /* Laracasts */
@@ -693,9 +651,8 @@ export const data = [
         date: "2023",
         duration: "10h 44min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710699860/courses/php-jeffrey-way_ccibbz.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/fw5ObX8P6as/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/fw5ObX8P6as?si=Nn-j2Fkoo8xhoHvZ",
       },
     ],
@@ -715,9 +672,8 @@ export const data = [
         date: "2023",
         duration: "52min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710954040/courses/sql-midu_jqwnqp.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/6of9yHaGC78/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/6of9yHaGC78?si=mJnfWG4GkW2BF5jz",
       },
       /* Lucas Dalto */
@@ -730,9 +686,8 @@ export const data = [
         date: "2023",
         duration: "7h 21min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710949462/courses/sql-dalto_oc1uls.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/DFg1V-rO6Pg/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/DFg1V-rO6Pg?si=lIQ74QCCn6JvInmA",
       },
       /* Brais Moure */
@@ -745,9 +700,8 @@ export const data = [
         date: "2024",
         duration: "6h 52min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710949974/courses/sql-brais-moure_mnpe6e.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/OuJerKzV5T0/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/OuJerKzV5T0?si=1QEH8wIcY7DFrcAP",
       },
       /* Nicolás Schürmann */
@@ -760,9 +714,8 @@ export const data = [
         date: "2022",
         duration: "1h 56min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710950444/courses/sql-nico_dimmrq.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/uUdKAYl-F7g/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/uUdKAYl-F7g?si=Igc214SJ_A-jmyTh",
       },
       /* Frank Andrade */
@@ -775,9 +728,8 @@ export const data = [
         date: "2023",
         duration: "6h 11min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710953524/courses/sql-frank_hbjelw.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/HU7VJ-xDEzw/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/HU7VJ-xDEzw?si=8ZgerdaztRrU9mbs",
       },
     ],
@@ -797,9 +749,8 @@ export const data = [
         date: "2019",
         duration: "1h 21min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710955034/courses/mongodb-fazt_sk68ix.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/lWMemPN9t6Q/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/lWMemPN9t6Q?si=5zgt5yMqGcBoz3zc",
       },
       /* codigofacilito */
@@ -812,9 +763,8 @@ export const data = [
         date: "2021",
         duration: "2h 44min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710955577/courses/mongodb-codigofacilito_cxbgzq.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/DPdAfgmkNuE/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/DPdAfgmkNuE?si=0lvJfaNfAWhLKKck",
       },
       /* Henry Granados */
@@ -827,9 +777,8 @@ export const data = [
         date: "2023",
         duration: "27min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710956008/courses/mongodb-henry_d5j5ue.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/uLzyi2D5iu0/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/uLzyi2D5iu0?si=wsJz2RGrR6aZ_RXY",
       },
       /* Chris Gámez */
@@ -842,9 +791,8 @@ export const data = [
         date: "2023",
         duration: "1h 17min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710954409/courses/mongodb-chris_bbp0zc.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/YyfdOX-Clf4/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/YyfdOX-Clf4?si=Ptq-Rt4pq3ECEURM",
       },
       /* Bro Code */
@@ -857,9 +805,8 @@ export const data = [
         date: "2023",
         duration: "1h 00min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710956357/courses/mongodb-bro-code_egwpla.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/c2M-rlkkT5o/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/c2M-rlkkT5o?si=Xg2zL-Y-dYPDw3jj",
       },
     ],
@@ -879,9 +826,8 @@ export const data = [
         date: "2022",
         duration: "4h 50min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710700754/courses/react-fazt_edz42z.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/rLoWMU4L_qE/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/rLoWMU4L_qE?si=vYlUJthsbvXYWqxV",
       },
       /* Miguel Ángel Durán */
@@ -894,9 +840,8 @@ export const data = [
         date: "2023",
         duration: "2h 24min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710701427/courses/react-midu_qhm8zo.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/7iobxzd_2wY/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/7iobxzd_2wY?si=E6N2_bllGEh2V_yq",
       },
       /* Sergie Code */
@@ -909,9 +854,8 @@ export const data = [
         date: "2023",
         duration: "7h 33min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710701901/courses/react-sergie-code_a9duv8.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/ladwC6Lrs-M/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/ladwC6Lrs-M?si=IlnsLfArNniFGJ2N",
       },
       /* Estefania Cassingena Navone */
@@ -924,9 +868,8 @@ export const data = [
         date: "2022",
         duration: "8h 10min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710702450/courses/react-estefania_jtwjrg.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/6Jfk8ic3KVk/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/6Jfk8ic3KVk?si=SmbqFPcyZr0EsbVn",
       },
       /* Dave Gray */
@@ -939,9 +882,8 @@ export const data = [
         date: "2021",
         duration: "8h 49min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710703532/courses/react-dave-gray_dpm5sg.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/RVFAyFWO4go/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/RVFAyFWO4go?si=554eQX1P39lOVW-i",
       },
       /* Bro Code */
@@ -954,9 +896,8 @@ export const data = [
         date: "2024",
         duration: "4h 43min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710703151/courses/react-bro-code_mvhilg.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/CgkZ7MvWUAA/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/CgkZ7MvWUAA?si=cbvbUnGVEL57ZJH6",
       },
     ],
@@ -976,9 +917,8 @@ export const data = [
         date: "2023",
         duration: "1h 28min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710708977/courses/next-goncy_lbepk6.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/s5jPwPZrJhw/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/s5jPwPZrJhw?si=QEcxzyt2iTvtsnW7",
       },
       /* Fazt */
@@ -991,9 +931,8 @@ export const data = [
         date: "2023",
         duration: "4h 29min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710704340/courses/next-fazt_fzbnzn.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/_SPoSMmN3ZU/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/_SPoSMmN3ZU?si=BxcowPStWzA2s57t",
       },
       /* Jonathan Mircha */
@@ -1006,26 +945,9 @@ export const data = [
         date: "2024",
         duration: "2h 47min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710704745/courses/next-jonmircha_cnr1b9.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/r5fkL5_rB70/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/r5fkL5_rB70?si=rLWgRCCpHCEi-9yf",
-      },
-      /* HuXn WebDev */
-      {
-        url: "curso-de-next-huxn-webdev",
-        title:
-          "Next.js 14: ¡Una guía completa de las últimas funciones y conceptos avanzados!",
-        description:
-          "Este tutorial detallado cubre todo lo que necesitas saber para aprovechar el poder de las últimas y mejores funciones de Next.js.",
-        author: "Creado por HuXn WebDev",
-        date: "2023",
-        duration: "5h 04min",
-        language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710709844/courses/next-huxn_n5fzvk.jpg",
-        iframeSrc:
-          "https://www.youtube.com/embed/GowPe3iiqTs?si=Rc_c4fN6-A83QihW",
       },
       /* Lama Dev */
       {
@@ -1037,9 +959,8 @@ export const data = [
         date: "2021",
         duration: "4h 55min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710710206/courses/next-lama-dev_mbbqoq.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/vCOSTG10Y4o/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/vCOSTG10Y4o?si=GfX6RFJxXLxBTTar",
       },
       /* JavaScript Mastery */
@@ -1053,9 +974,8 @@ export const data = [
         date: "2023",
         duration: "3h 26min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710710638/courses/next-javascript-mastery_s4xmzt.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/wm5gMKuwSYk/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/wm5gMKuwSYk?si=LGEvRCH4UdHP3EMG",
       },
       /* Dave Gray */
@@ -1069,9 +989,8 @@ export const data = [
         date: "2023",
         duration: "7h 03min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1711456613/courses/next-dave-gray_hrrary.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/843nec-IvW0/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/843nec-IvW0?si=Zppk6ctt38ORDOh8",
       },
     ],
@@ -1091,9 +1010,8 @@ export const data = [
         date: "2021",
         duration: "4h 37min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710722210/courses/angular-dominie-code_lgrflm.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/i-oYrcNtc2s/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/i-oYrcNtc2s?si=76ma80Q-famywTbn",
       },
       /* Sergie Code */
@@ -1106,9 +1024,8 @@ export const data = [
         date: "2023",
         duration: "7h 58min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710720682/courses/angular-sergie_lfysvw.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/soInCF7nbDw/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/soInCF7nbDw?si=LL2vPfmGbTFkp-QL",
       },
       /* Miguel Ángel Durán */
@@ -1121,9 +1038,8 @@ export const data = [
         date: "2023",
         duration: "1h 23min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710721146/courses/angular-midu_q639si.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/f7unUpshmpA/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/f7unUpshmpA?si=7UFgEOvwQjSyAMXI",
       },
       /* Code Deck */
@@ -1136,9 +1052,8 @@ export const data = [
         date: "2024",
         duration: "4h 04min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710721544/courses/angular-code-deck_fmfjby.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/f7BJFTEbc10/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/f7BJFTEbc10?si=y6m6ig-WPomacaGH",
       },
       /* Santosh Yadav */
@@ -1151,9 +1066,8 @@ export const data = [
         date: "2022",
         duration: "17h 33min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710761035/courses/angular-santosh-yadav_xeubw4.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/3qBXWUpoPHo/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/3qBXWUpoPHo?si=1mJlCa7BM_T9H1YR",
       },
     ],
@@ -1173,9 +1087,8 @@ export const data = [
         date: "2022",
         duration: "1h 11min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710761717/courses/typescript-nico_mrspoq.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/-xDZwb-PY0M/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/-xDZwb-PY0M?si=veeQsWsFHfvH_cHC",
       },
       /* Miguel Ángel Durán */
@@ -1188,9 +1101,8 @@ export const data = [
         date: "2023",
         duration: "1h 23min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710762196/courses/typescript-midu_hbydxn.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/fUgxxhI_bvc/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/fUgxxhI_bvc?si=IDtkPzlFrxWn79HK",
       },
       /* HuXn WebDev */
@@ -1204,9 +1116,8 @@ export const data = [
         date: "2023",
         duration: "3h 28min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710763203/courses/typescript-huxn_cn3v6q.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/zeCDuo74uzA/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/zeCDuo74uzA?si=x492BIP3yTLj0o8G",
       },
       /* Sergie Code */
@@ -1219,9 +1130,8 @@ export const data = [
         date: "2023",
         duration: "2h 18min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710762597/courses/typescript-sergie_cvjdyw.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/UTA5bykCx2c/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/UTA5bykCx2c?si=bCnInQTbxhTHjNgy",
       },
       /* Dave Gray */
@@ -1234,9 +1144,8 @@ export const data = [
         date: "2023",
         duration: "8h 21min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710763518/courses/typescript-dave-gray_s7pfeh.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/gieEQFIfgYc/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/gieEQFIfgYc?si=oRGsAJlIDy8u6LFt",
       },
     ],
@@ -1256,9 +1165,8 @@ export const data = [
         date: "2024",
         duration: "11h 46min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1711373477/courses/tailwind-david-ruiz_fakst1.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/5HtRcMSO1Ro/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/5HtRcMSO1Ro?si=4ZX8JNMydOy0OH5L",
       },
       /* Jordan Alexander */
@@ -1271,9 +1179,8 @@ export const data = [
         date: "2023",
         duration: "1h 33min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1711374305/courses/tailwind-alexander_bqnnwl.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/VcIQviqWDRs/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/VcIQviqWDRs?si=eJLv1fkFNNXqhNTK",
       },
       /* Dave Gray */
@@ -1286,9 +1193,8 @@ export const data = [
         date: "2022",
         duration: "3h",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1711374696/courses/tailwind-dave-gray_oesovl.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/lCxcTsOHrjo/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/lCxcTsOHrjo?si=wYDOQm4w6v3SwICt",
       },
       /* Csaba Kissi */
@@ -1301,9 +1207,8 @@ export const data = [
         date: "2022",
         duration: "1h 35min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1711375520/courses/tailwind-csaba_d5o247.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/dFgzHOX84xQ/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/dFgzHOX84xQ?si=bXU0RqDznD3YVia_",
       },
       /* HuXn WebDev */
@@ -1316,9 +1221,8 @@ export const data = [
         date: "2023",
         duration: "3h 47min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1711375166/courses/tailwind-huxn_gv6x4m.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/WvBnTJK7Khk/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/WvBnTJK7Khk?si=Ulqzm928OWuqkHUQ",
       },
     ],
@@ -1338,9 +1242,8 @@ export const data = [
         date: "2023",
         duration: "1h 04min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710766924/courses/kotlin-brais-moure_dxigjj.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/T3ugOYTRF7c/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/T3ugOYTRF7c?si=ve-tkSEaO_n1Onmd",
       },
       /* AristiDevs */
@@ -1353,9 +1256,8 @@ export const data = [
         date: "2023",
         duration: "9h 21min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710767221/courses/kotlin-aristidevs_i4g7f2.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/vJapzH_46a8/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/vJapzH_46a8?si=UV-4wGsYuQq0w4fG",
       },
       /* AristiDevs */
@@ -1368,9 +1270,8 @@ export const data = [
         date: "2023",
         duration: "8h 24min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710768549/courses/kotlin-aristidevs-2_ot7bba.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/UaR7GSNACsM/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/UaR7GSNACsM?si=3JZyESsbPVxrIPkS",
       },
       /* Antonio Leiva Gordillo */
@@ -1383,9 +1284,8 @@ export const data = [
         date: "2022",
         duration: "6h 15min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710769156/courses/kotlin-antonio_bwvndm.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/DX-CIdg3jWY/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/DX-CIdg3jWY?si=we1CFyUwNwRVGSBB",
       },
       /* Alexandru Cristian */
@@ -1399,9 +1299,8 @@ export const data = [
         date: "2022",
         duration: "13h 18min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710768808/courses/kotlin-alexandru_frh9jj.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/EExSSotojVI/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/EExSSotojVI?si=QCIWThqfqZ62wHI3",
       },
     ],
@@ -1421,9 +1320,8 @@ export const data = [
         date: "2023",
         duration: "1h 14min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710769462/courses/swift-brais-moure_ufeh4y.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/kpsVJptSv1U/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/kpsVJptSv1U?si=Mi3DRNEVjG4QoctH",
       },
       /* Paul Hudson */
@@ -1435,9 +1333,8 @@ export const data = [
         date: "2021",
         duration: "58min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710850790/courses/swift-paul_fxa53b.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/n5X_V81OYnQ/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/n5X_V81OYnQ?si=vKpgIskN2zBenqVO",
       },
       /* Vandad Nahavandipoor */
@@ -1450,9 +1347,8 @@ export const data = [
         date: "2022",
         duration: "7h 05min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710769874/courses/swift-vandad_enwx8y.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/8Xg7E9shq0U/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/8Xg7E9shq0U?si=C-FPPlnjs3KUZHt2",
       },
       /* Sean Allen */
@@ -1464,9 +1360,8 @@ export const data = [
         date: "2022",
         duration: "10h 32min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710770404/courses/swift-sean-allen_owqmrc.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/CwA1VWP0Ldw/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/CwA1VWP0Ldw?si=NzTUDBONkvEgPzke",
       },
       /* SwiftBeta */
@@ -1479,9 +1374,8 @@ export const data = [
         date: "2022",
         duration: "2h 41min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710851888/courses/swift-swiftbeta_n9yoq4.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/Dk1wLbTh4Fo/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/Dk1wLbTh4Fo?si=TeLbBLwEXPKVMjWm",
       },
     ],
@@ -1501,9 +1395,8 @@ export const data = [
         date: "2023",
         duration: "10h 48min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710788190/courses/reactnative-atl_x8b5mn.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/Dl8x8EWXq8s/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/Dl8x8EWXq8s?si=l5SDILqNl81iEt_x",
       },
       /* Miguel Ángel Durán */
@@ -1516,9 +1409,8 @@ export const data = [
         date: "2022",
         duration: "4h 09min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710786451/courses/reactnative-midu_mfzyg9.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/qi87b6VcIHY/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/qi87b6VcIHY?si=-T8XM_looBPzuTYh",
       },
       /* Fazt */
@@ -1531,9 +1423,8 @@ export const data = [
         date: "2020",
         duration: "1h 56min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710786887/courses/reactnative-fazt_u7l1rl.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/hXDMWeD0ERM/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/hXDMWeD0ERM?si=698FoKRUXxs6iMFB",
       },
       /* Alberto Moedano */
@@ -1546,9 +1437,8 @@ export const data = [
         date: "2023",
         duration: "48min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710848525/courses/reactnative-moedano_rps1a8.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/IOBnr9d7A3c/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/IOBnr9d7A3c?si=28IDpLrnj8YWhbLc",
       },
       /* Darshan Pawar */
@@ -1561,9 +1451,8 @@ export const data = [
         date: "2023",
         duration: "8h 45min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710848166/courses/reactnative-darshan_nqsgms.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/W1Co2M-gsQE/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/W1Co2M-gsQE?si=VS-4bNZa34zvwjWq",
       },
     ],
@@ -1583,9 +1472,8 @@ export const data = [
         date: "2021",
         duration: "24min",
         language: "Español",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710947575/courses/flutter-brais-moure_ppirex.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/-pWSQYpkkjk/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/-pWSQYpkkjk?si=Fnq3AKDONx23Tzl4",
       },
       /* Vandad Nahavandipoor */
@@ -1598,9 +1486,8 @@ export const data = [
         date: "2022",
         duration: "37h",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710947967/courses/flutter-vandad_hlffwe.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/VPvVD8t02U8/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/VPvVD8t02U8?si=cL5qt2LxJeIDTFkk",
       },
       /* Romain Girou */
@@ -1613,9 +1500,8 @@ export const data = [
         date: "2024",
         duration: "3h 35min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710948294/courses/flutter-romain_luqjzp.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/MQ1_wPyVLVc/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/MQ1_wPyVLVc?si=OwPEpiSNS9lqRsfd",
       },
       /* Mitch Koko */
@@ -1628,9 +1514,8 @@ export const data = [
         date: "2023",
         duration: "2h 23min",
         language: "Inglés",
-        image:
-          "https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710948576/courses/flutter-mitch_da3fuz.jpg",
-        iframeSrc:
+        thumbnail: "https://img.youtube.com/vi/HQ_ytw58tC4/sddefault.jpg",
+        iframe:
           "https://www.youtube.com/embed/HQ_ytw58tC4?si=ubrJ2wkiSsMzIlYe",
       },
     ],

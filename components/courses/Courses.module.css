@@ -25,11 +25,14 @@
   gap: var(--size20);
 }
 
-.courses img {
-  display: block;
+.imageWrapper {
+  position: relative;
   width: 100%;
-  height: auto;
   aspect-ratio: 16 / 9;
+}
+
+.imageWrapper img {
+  object-fit: cover;
   transition: 0.4s;
 }
 

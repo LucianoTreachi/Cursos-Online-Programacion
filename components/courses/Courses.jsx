@@ -44,14 +44,15 @@ export default function Courses({ data, category, title, description }) {
           <div className={styles.courses}>
             {filteredCourses.map((course, index) => (
               <Link href={`/curso/${course.url}`} key={index}>
-                <Image
-                  className={styles.image}
-                  src={course.image}
-                  alt="Portada del curso"
-                  width={640}
-                  height={360}
-                  priority
-                />
+                <div className={styles.imageWrapper}>
+                  <Image
+                    className={styles.image}
+                    src={course.thumbnail}
+                    alt="Portada del curso"
+                    fill
+                    loading="lazy"
+                  />
+                </div>
               </Link>
             ))}
           </div>
