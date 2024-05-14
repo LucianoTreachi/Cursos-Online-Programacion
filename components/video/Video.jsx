@@ -16,7 +16,7 @@ export default function Video({ thumbnail, iframe }) {
 
   return (
     <div onClick={handleClick}>
-      {loading && <p className={styles.message}>Cargando video...</p>}
+      {loading && <p className={styles.message}>Cargando el video...</p>}
       {showVideo ? (
         <Iframe iframe={iframe} setLoading={setLoading} />
       ) : (
