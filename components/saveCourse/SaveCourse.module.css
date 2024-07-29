@@ -15,6 +15,10 @@
   opacity: .85;
 }
 
+.button:focus {
+  outline: 2px solid var(--white);
+}
+
 .heartIcon {
   width: var(--size26);
   height: var(--size26);

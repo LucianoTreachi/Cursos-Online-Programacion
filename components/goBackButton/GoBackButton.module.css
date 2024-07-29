@@ -1,5 +1,7 @@
 .button {
   background-color: transparent;
+  padding: var(--size16);
+  border: 1px solid var(--white);
   color: var(--white);
   font-size: var(--size16);
   opacity: .7;
@@ -17,4 +19,8 @@
 .button svg {
   width: var(--size22);
   height: var(--size22);
+}
+
+.button:focus {
+  outline: 2px solid var(--white);
 }

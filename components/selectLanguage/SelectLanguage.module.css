@@ -34,3 +34,7 @@
   /* Firefox */
   -moz-appearance: none;
 }
+
+.select:focus {
+  outline: 2px solid var(--white);
+}
