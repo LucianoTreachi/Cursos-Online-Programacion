@@ -20,7 +20,7 @@ export default function Hero() {
             <Image
               className={styles.homeImage}
               src="https://res.cloudinary.com/dwqk2mkgh/image/upload/v1710859727/courses/home_btaxcw.png"
-              alt="Imagen de Portada"
+              alt=""
               width={799}
               height={433}
               priority
