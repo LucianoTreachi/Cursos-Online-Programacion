@@ -27,7 +27,7 @@ export default function ShareCourse() {
         {clicked ? (
           <>
             <CheckIcon />
-            <span>URL copiada</span>
+            <span>URL copiada. Puedes pegarla en donde quieras.</span>
           </>
         ) : (
           <>

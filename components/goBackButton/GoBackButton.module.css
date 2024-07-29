@@ -1,7 +1,7 @@
 .button {
   background-color: transparent;
   padding: var(--size16);
-  border: 1px solid var(--white);
+  border: 2px solid var(--white);
   color: var(--white);
   font-size: var(--size16);
   opacity: .7;
@@ -22,5 +22,5 @@
 }
 
 .button:focus {
-  outline: 2px solid var(--white);
+  outline: 1px solid var(--white);
 }

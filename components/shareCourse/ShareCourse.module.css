@@ -28,8 +28,10 @@
 
 .button span {
   font-size: var(--size14);
+  font-weight: 300;
   color: var(--white);
   opacity: .85;
+  line-height: 1.5;
 }
 
 @media (max-width: 36rem) {

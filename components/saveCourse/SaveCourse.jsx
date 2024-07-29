@@ -43,7 +43,7 @@ export default function SaveCourse({ imageCourse, urlCourse }) {
       {clicked ? (
         <>
           <HeartFillIcon className={styles.heartFillIcon} />
-          <span>Curso guardado</span>
+          <span>Curso guardado en Favoritos</span>
         </>
       ) : (
         <>
