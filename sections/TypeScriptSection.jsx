@@ -19,7 +19,11 @@ export default async function TypeScriptSection() {
       <Container>
         <div className={styles.heading}>
           <h2 className={styles.title}>TypeScript</h2>
-          <Link className={styles.buttonSeeAll} href="/cursos-de-typescript">
+          <Link
+            className={styles.buttonSeeAll}
+            href="/cursos-de-typescript"
+            aria-label="Ver todos los cursos de TypeScript"
+          >
             Ver todos
           </Link>
         </div>

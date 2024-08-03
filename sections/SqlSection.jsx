@@ -19,7 +19,11 @@ export default async function SqlSection() {
       <Container>
         <div className={styles.heading}>
           <h2 className={styles.title}>SQL</h2>
-          <Link className={styles.buttonSeeAll} href="/cursos-de-sql">
+          <Link
+            className={styles.buttonSeeAll}
+            href="/cursos-de-sql"
+            aria-label="Ver todos los cursos de SQL"
+          >
             Ver todos
           </Link>
         </div>

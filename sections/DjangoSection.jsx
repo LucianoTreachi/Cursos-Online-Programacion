@@ -19,7 +19,11 @@ export default async function DjangoSection() {
       <Container>
         <div className={styles.heading}>
           <h2 className={styles.title}>Django</h2>
-          <Link className={styles.buttonSeeAll} href="/cursos-de-django">
+          <Link
+            className={styles.buttonSeeAll}
+            href="/cursos-de-django"
+            aria-label="Ver todos los cursos de Django"
+          >
             Ver todos
           </Link>
         </div>

@@ -19,7 +19,11 @@ export default async function HtmlSection() {
       <Container>
         <div className={styles.heading}>
           <h2 className={styles.title}>HTML</h2>
-          <Link className={styles.buttonSeeAll} href="/cursos-de-html">
+          <Link
+            className={styles.buttonSeeAll}
+            href="/cursos-de-html"
+            aria-label="Ver todos los cursos de HTML"
+          >
             Ver todos
           </Link>
         </div>

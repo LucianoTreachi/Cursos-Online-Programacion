@@ -19,7 +19,11 @@ export default async function ReactSection() {
       <Container>
         <div className={styles.heading}>
           <h2 className={styles.title}>React</h2>
-          <Link className={styles.buttonSeeAll} href="/cursos-de-react">
+          <Link
+            className={styles.buttonSeeAll}
+            href="/cursos-de-react"
+            aria-label="Ver todos los cursos de React"
+          >
             Ver todos
           </Link>
         </div>

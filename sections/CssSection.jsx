@@ -19,7 +19,11 @@ export default async function CssSection() {
       <Container>
         <div className={styles.heading}>
           <h2 className={styles.title}>CSS</h2>
-          <Link className={styles.buttonSeeAll} href="/cursos-de-css">
+          <Link
+            className={styles.buttonSeeAll}
+            href="/cursos-de-css"
+            aria-label="Ver todos los cursos de CSS"
+          >
             Ver todos
           </Link>
         </div>

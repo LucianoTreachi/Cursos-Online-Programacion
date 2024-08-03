@@ -19,7 +19,11 @@ export default async function MongoSection() {
       <Container>
         <div className={styles.heading}>
           <h2 className={styles.title}>MongoDB</h2>
-          <Link className={styles.buttonSeeAll} href="/cursos-de-mongodb">
+          <Link
+            className={styles.buttonSeeAll}
+            href="/cursos-de-mongodb"
+            aria-label="Ver todos los cursos de Mongo"
+          >
             Ver todos
           </Link>
         </div>

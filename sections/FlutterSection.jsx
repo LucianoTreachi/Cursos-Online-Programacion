@@ -19,7 +19,11 @@ export default async function FlutterSection() {
       <Container>
         <div className={styles.heading}>
           <h2 className={styles.title}>Flutter</h2>
-          <Link className={styles.buttonSeeAll} href="/cursos-de-flutter">
+          <Link
+            className={styles.buttonSeeAll}
+            href="/cursos-de-flutter"
+            aria-label="Ver todos los cursos de Flutter"
+          >
             Ver todos
           </Link>
         </div>

@@ -19,7 +19,11 @@ export default async function SwiftSection() {
       <Container>
         <div className={styles.heading}>
           <h2 className={styles.title}>Swift</h2>
-          <Link className={styles.buttonSeeAll} href="/cursos-de-swift">
+          <Link
+            className={styles.buttonSeeAll}
+            href="/cursos-de-swift"
+            aria-label="Ver todos los cursos de Swift"
+          >
             Ver todos
           </Link>
         </div>

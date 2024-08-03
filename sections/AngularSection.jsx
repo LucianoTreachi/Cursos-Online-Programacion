@@ -19,7 +19,11 @@ export default async function AngularSection() {
       <Container>
         <div className={styles.heading}>
           <h2 className={styles.title}>Angular</h2>
-          <Link className={styles.buttonSeeAll} href="/cursos-de-angular">
+          <Link
+            className={styles.buttonSeeAll}
+            href="/cursos-de-angular"
+            aria-label="Ver todos los cursos de Angular"
+          >
             Ver todos
           </Link>
         </div>

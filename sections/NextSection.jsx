@@ -19,7 +19,11 @@ export default async function NextSection() {
       <Container>
         <div className={styles.heading}>
           <h2 className={styles.title}>Next.js</h2>
-          <Link className={styles.buttonSeeAll} href="/cursos-de-next">
+          <Link
+            className={styles.buttonSeeAll}
+            href="/cursos-de-next"
+            aria-label="Ver todos los cursos de Next.js"
+          >
             Ver todos
           </Link>
         </div>

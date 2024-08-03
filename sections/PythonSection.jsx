@@ -19,7 +19,11 @@ export default async function PythonSection() {
       <Container>
         <div className={styles.heading}>
           <h2 className={styles.title}>Python</h2>
-          <Link className={styles.buttonSeeAll} href="/cursos-de-python">
+          <Link
+            className={styles.buttonSeeAll}
+            href="/cursos-de-python"
+            aria-label="Ver todos los cursos de Python"
+          >
             Ver todos
           </Link>
         </div>

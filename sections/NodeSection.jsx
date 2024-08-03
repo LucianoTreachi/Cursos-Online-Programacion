@@ -19,7 +19,11 @@ export default async function NodeSection() {
       <Container>
         <div className={styles.heading}>
           <h2 className={styles.title}>Node.js</h2>
-          <Link className={styles.buttonSeeAll} href="/cursos-de-node">
+          <Link
+            className={styles.buttonSeeAll}
+            href="/cursos-de-node"
+            aria-label="Ver todos los cursos de Node"
+          >
             Ver todos
           </Link>
         </div>

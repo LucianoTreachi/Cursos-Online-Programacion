@@ -19,7 +19,11 @@ export default async function TailwindSection() {
       <Container>
         <div className={styles.heading}>
           <h2 className={styles.title}>Tailwind CSS</h2>
-          <Link className={styles.buttonSeeAll} href="/cursos-de-tailwind">
+          <Link
+            className={styles.buttonSeeAll}
+            href="/cursos-de-tailwind"
+            aria-label="Ver todos los cursos de Tailwind"
+          >
             Ver todos
           </Link>
         </div>

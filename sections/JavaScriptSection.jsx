@@ -19,7 +19,11 @@ export default async function JavaScriptSection() {
       <Container>
         <div className={styles.heading}>
           <h2 className={styles.title}>JavaScript</h2>
-          <Link className={styles.buttonSeeAll} href="/cursos-de-javascript">
+          <Link
+            className={styles.buttonSeeAll}
+            href="/cursos-de-javascript"
+            aria-label="Ver todos los cursos de JavaScript"
+          >
             Ver todos
           </Link>
         </div>

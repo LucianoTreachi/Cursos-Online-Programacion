@@ -19,7 +19,11 @@ export default async function JavaSection() {
       <Container>
         <div className={styles.heading}>
           <h2 className={styles.title}>Java</h2>
-          <Link className={styles.buttonSeeAll} href="/cursos-de-java">
+          <Link
+            className={styles.buttonSeeAll}
+            href="/cursos-de-java"
+            aria-label="Ver todos los cursos de Java"
+          >
             Ver todos
           </Link>
         </div>

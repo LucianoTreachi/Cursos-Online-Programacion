@@ -19,7 +19,11 @@ export default async function KotlinSection() {
       <Container>
         <div className={styles.heading}>
           <h2 className={styles.title}>Kotlin</h2>
-          <Link className={styles.buttonSeeAll} href="/cursos-de-kotlin">
+          <Link
+            className={styles.buttonSeeAll}
+            href="/cursos-de-kotlin"
+            aria-label="Ver todos los cursos de Kotlin"
+          >
             Ver todos
           </Link>
         </div>

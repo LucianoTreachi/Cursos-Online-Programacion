@@ -10,7 +10,7 @@ export default function Options() {
         <h2 className={styles.title}>¿En qué te gustaría especializarte?</h2>
 
         <div className={styles.cards}>
-          <Link href="/frontend">
+          <Link href="/frontend" aria-label="Ver cursos de Frontend">
             <article className={styles.card}>
               <h3>Frontend</h3>
               <p>
@@ -24,7 +24,7 @@ export default function Options() {
             </article>
           </Link>
 
-          <Link href="/backend">
+          <Link href="/backend" aria-label="Ver cursos de Backend">
             <article className={styles.card}>
               <h3>Backend</h3>
               <p>
@@ -39,7 +39,10 @@ export default function Options() {
             </article>
           </Link>
 
-          <Link href="/aplicaciones-moviles">
+          <Link
+            href="/aplicaciones-moviles"
+            aria-label="Ver cursos de Aplicaciones Móviles"
+          >
             <article className={styles.card}>
               <h3>Aplicaciones Móviles</h3>
               <p>

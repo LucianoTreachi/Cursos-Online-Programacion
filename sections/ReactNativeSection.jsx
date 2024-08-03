@@ -19,7 +19,11 @@ export default async function ReactNativeSection() {
       <Container>
         <div className={styles.heading}>
           <h2 className={styles.title}>React Native</h2>
-          <Link className={styles.buttonSeeAll} href="/cursos-de-react-native">
+          <Link
+            className={styles.buttonSeeAll}
+            href="/cursos-de-react-native"
+            aria-label="Ver todos los cursos de React Native"
+          >
             Ver todos
           </Link>
         </div>
