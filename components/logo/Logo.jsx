@@ -3,7 +3,7 @@ import styles from "./Logo.module.css";
 
 export default function Logo() {
   return (
-    <Link href="/" className={styles.logo}>
+    <Link href="/" className={styles.logo} aria-label="Logo del sitio web.">
       Cursos Online <br /> de Programación
     </Link>
   );
