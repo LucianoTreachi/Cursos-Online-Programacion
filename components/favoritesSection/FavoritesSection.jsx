@@ -25,7 +25,7 @@ export default function FavoritesSection() {
                 <div className={styles.imageWrapper}>
                   <Image
                     src={course.thumbnail}
-                    alt="Portada del curso"
+                    alt={`Curso guardado: ${course.title}, ${course.author}, ${course.duration}.`}
                     fill
                     priority
                   />

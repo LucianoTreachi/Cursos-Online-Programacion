@@ -5,7 +5,7 @@ import Iframe from "@/components/iframe/Iframe";
 import Thumbnail from "@/components/thumbnail/Thumbnail";
 import styles from "./Video.module.css";
 
-export default function Video({ thumbnail, iframe }) {
+export default function Video({ thumbnail, iframe, title }) {
   const [loading, setLoading] = useState(false);
   const [showVideo, setShowVideo] = useState(false);
 
@@ -20,7 +20,11 @@ export default function Video({ thumbnail, iframe }) {
       {showVideo ? (
         <Iframe iframe={iframe} setLoading={setLoading} />
       ) : (
-        <Thumbnail thumbnail={thumbnail} setLoading={setLoading} />
+        <Thumbnail
+          thumbnail={thumbnail}
+          title={title}
+          setLoading={setLoading}
+        />
       )}
     </div>
   );

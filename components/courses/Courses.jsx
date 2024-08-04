@@ -48,7 +48,7 @@ export default function Courses({ data, category, title, description }) {
                   <Image
                     className={styles.image}
                     src={course.thumbnail}
-                    alt="Portada del curso"
+                    alt={`${course.title}, ${course.author}, ${course.duration}.`}
                     fill
                     loading="lazy"
                   />

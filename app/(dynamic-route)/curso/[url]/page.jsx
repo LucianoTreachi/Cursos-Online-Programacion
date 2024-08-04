@@ -74,6 +74,7 @@ export default async function CoursePage({ params }) {
 
           <div className={styles.videoContainer}>
             <Video
+              title={selectedCourse.title}
               thumbnail={selectedCourse.thumbnail}
               iframe={selectedCourse.iframe}
             />
@@ -83,6 +84,9 @@ export default async function CoursePage({ params }) {
             <SaveCourse
               imageCourse={selectedCourse.thumbnail}
               urlCourse={selectedCourse.url}
+              titleCourse={selectedCourse.title}
+              authorCourse={selectedCourse.author}
+              durationCourse={selectedCourse.duration}
             />
             <ShareCourse />
           </div>

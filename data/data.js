@@ -11,7 +11,7 @@ export const data = [
           "Este curso tiene como objetivo que aprendas desde cero las dos tecnologías más importantes del mundo del desarrollo web, e incluso del mundo de la programación: HTML y CSS.",
         author: "Creado por Lucas Dalto",
         date: "2024",
-        duration: "24h",
+        duration: "24hrs.",
         language: "Español",
         thumbnail: "https://img.youtube.com/vi/ELSm-G201Ls/sddefault.jpg",
         iframe:
@@ -1191,7 +1191,7 @@ export const data = [
           "Un curso completo de Tailwind CSS para principiantes con instrucciones para mejorar tus habilidades de desarrollo web.",
         author: "Creado por Dave Gray",
         date: "2022",
-        duration: "3h",
+        duration: "3hrs.",
         language: "Inglés",
         thumbnail: "https://img.youtube.com/vi/lCxcTsOHrjo/sddefault.jpg",
         iframe:
@@ -1484,7 +1484,7 @@ export const data = [
           "Aprende a usar Flutter en este curso completo para principiantes.",
         author: "Creado por Vandad Nahavandipoor",
         date: "2022",
-        duration: "37h",
+        duration: "37hrs",
         language: "Inglés",
         thumbnail: "https://img.youtube.com/vi/VPvVD8t02U8/sddefault.jpg",
         iframe:

@@ -7,7 +7,13 @@ import HeartFillIcon from "@/icons/HeartFillIcon";
 import HeartIcon from "@/icons/HeartIcon";
 import styles from "./SaveCourse.module.css";
 
-export default function SaveCourse({ imageCourse, urlCourse }) {
+export default function SaveCourse({
+  imageCourse,
+  urlCourse,
+  titleCourse,
+  authorCourse,
+  durationCourse,
+}) {
   // Use the context
   const { favoritesCourses, setFavoritesCourses } =
     useFavoritesCoursesContext();
@@ -27,7 +33,13 @@ export default function SaveCourse({ imageCourse, urlCourse }) {
       // Add the course to favorites if it's not already included
       setFavoritesCourses([
         ...favoritesCourses,
-        { thumbnail: imageCourse, url: urlCourse },
+        {
+          thumbnail: imageCourse,
+          url: urlCourse,
+          title: titleCourse,
+          author: authorCourse,
+          duration: durationCourse,
+        },
       ]);
     } else {
       // Remove the course from favorites if it's already included

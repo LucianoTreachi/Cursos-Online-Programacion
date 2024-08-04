@@ -5,6 +5,11 @@
   padding-bottom: 56.25%;
 }
 
+.thumbnailWrapper button {
+  border: 0;
+  background-color: transparent;
+}
+
 .thumbnail {
   object-fit: cover;
 }

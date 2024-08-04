@@ -37,7 +37,7 @@ export default function Carousel({ courses }) {
             <div className={styles.imageWrapper}>
               <Image
                 src={course.thumbnail}
-                alt="Portada del curso"
+                alt={`${course.title}, ${course.author}, ${course.duration}.`}
                 fill
                 loading="lazy"
               />
