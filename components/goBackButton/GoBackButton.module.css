@@ -2,13 +2,13 @@
   background-color: transparent;
   padding: var(--size16);
   border: 2px solid var(--white);
+  border-radius: var(--size20);
   color: var(--white);
   font-size: var(--size16);
   opacity: .7;
   display: flex;
   align-items: center;
   gap: 8px;
-  border-radius: var(--size20);
   transition: opacity 0.4s;
 }
 
