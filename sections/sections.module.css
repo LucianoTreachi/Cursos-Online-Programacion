@@ -37,3 +37,9 @@
     font-size: clamp(var(--size24), 0.567vw + 1.297rem, var(--size28));
   }
 }
+
+@media (max-width: 36rem) {
+  .section {
+    padding: var(--size40) 0 var(--size40) var(--size20);
+  }
+}
