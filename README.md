@@ -17,7 +17,7 @@
 
 - Next.js 14
 - CSS Modules
-- Cloudinary
+- Swiper js
 
 ### 👽 Autor
 
