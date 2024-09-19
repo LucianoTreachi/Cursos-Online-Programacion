@@ -27,7 +27,7 @@ export default async function CssSection() {
             Ver todos
           </Link>
         </div>
-        <Carousel courses={cssCourses} />
+        <Carousel courses={cssCourses} category="css" />
       </Container>
     </section>
   );

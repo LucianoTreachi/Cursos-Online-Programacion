@@ -27,7 +27,7 @@ export default async function TypeScriptSection() {
             Ver todos
           </Link>
         </div>
-        <Carousel courses={typescriptCourses} />
+        <Carousel courses={typescriptCourses} category="typescript" />
       </Container>
     </section>
   );

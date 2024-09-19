@@ -27,7 +27,7 @@ export default async function HtmlSection() {
             Ver todos
           </Link>
         </div>
-        <Carousel courses={htmlCourses} />
+        <Carousel courses={htmlCourses} category="html" />
       </Container>
     </section>
   );

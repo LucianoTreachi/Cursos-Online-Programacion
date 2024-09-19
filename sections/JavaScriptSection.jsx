@@ -27,7 +27,7 @@ export default async function JavaScriptSection() {
             Ver todos
           </Link>
         </div>
-        <Carousel courses={javaScriptCourses} />
+        <Carousel courses={javaScriptCourses} category="javascript" />
       </Container>
     </section>
   );

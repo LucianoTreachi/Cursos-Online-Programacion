@@ -27,7 +27,7 @@ export default async function NextSection() {
             Ver todos
           </Link>
         </div>
-        <Carousel courses={nextCourses} />
+        <Carousel courses={nextCourses} category="next" />
       </Container>
     </section>
   );

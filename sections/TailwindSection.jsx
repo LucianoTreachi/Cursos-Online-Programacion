@@ -27,7 +27,7 @@ export default async function TailwindSection() {
             Ver todos
           </Link>
         </div>
-        <Carousel courses={tailwindCourses} />
+        <Carousel courses={tailwindCourses} category="tailwind" />
       </Container>
     </section>
   );

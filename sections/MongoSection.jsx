@@ -27,7 +27,7 @@ export default async function MongoSection() {
             Ver todos
           </Link>
         </div>
-        <Carousel courses={mongodbCourses} />
+        <Carousel courses={mongodbCourses} category="mongodb" />
       </Container>
     </section>
   );

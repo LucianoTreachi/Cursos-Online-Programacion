@@ -27,7 +27,7 @@ export default async function PhpSection() {
             Ver todos
           </Link>
         </div>
-        <Carousel courses={phpCourses} />
+        <Carousel courses={phpCourses} category="php" />
       </Container>
     </section>
   );

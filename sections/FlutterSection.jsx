@@ -27,7 +27,7 @@ export default async function FlutterSection() {
             Ver todos
           </Link>
         </div>
-        <Carousel courses={flutterCourses} />
+        <Carousel courses={flutterCourses} category="flutter" />
       </Container>
     </section>
   );

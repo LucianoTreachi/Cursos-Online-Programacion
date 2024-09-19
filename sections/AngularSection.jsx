@@ -27,7 +27,7 @@ export default async function AngularSection() {
             Ver todos
           </Link>
         </div>
-        <Carousel courses={angularCourses} />
+        <Carousel courses={angularCourses} category="angular" />
       </Container>
     </section>
   );

@@ -27,7 +27,7 @@ export default async function ReactSection() {
             Ver todos
           </Link>
         </div>
-        <Carousel courses={reactCourses} />
+        <Carousel courses={reactCourses} category="react" />
       </Container>
     </section>
   );

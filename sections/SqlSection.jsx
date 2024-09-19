@@ -27,7 +27,7 @@ export default async function SqlSection() {
             Ver todos
           </Link>
         </div>
-        <Carousel courses={sqlCourses} />
+        <Carousel courses={sqlCourses} category="sql" />
       </Container>
     </section>
   );

@@ -27,7 +27,7 @@ export default async function DjangoSection() {
             Ver todos
           </Link>
         </div>
-        <Carousel courses={djangoCourses} />
+        <Carousel courses={djangoCourses} category="django" />
       </Container>
     </section>
   );

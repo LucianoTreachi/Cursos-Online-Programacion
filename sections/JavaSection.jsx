@@ -27,7 +27,7 @@ export default async function JavaSection() {
             Ver todos
           </Link>
         </div>
-        <Carousel courses={javaCourses} />
+        <Carousel courses={javaCourses} category="java" />
       </Container>
     </section>
   );

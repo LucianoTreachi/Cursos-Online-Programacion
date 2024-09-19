@@ -27,7 +27,7 @@ export default async function KotlinSection() {
             Ver todos
           </Link>
         </div>
-        <Carousel courses={kotlinCourses} />
+        <Carousel courses={kotlinCourses} category="kotlin" />
       </Container>
     </section>
   );

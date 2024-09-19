@@ -27,7 +27,7 @@ export default async function SwiftSection() {
             Ver todos
           </Link>
         </div>
-        <Carousel courses={swiftCourses} />
+        <Carousel courses={swiftCourses} category="swift" />
       </Container>
     </section>
   );

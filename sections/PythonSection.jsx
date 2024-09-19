@@ -27,7 +27,7 @@ export default async function PythonSection() {
             Ver todos
           </Link>
         </div>
-        <Carousel courses={pythonCourses} />
+        <Carousel courses={pythonCourses} category="python" />
       </Container>
     </section>
   );

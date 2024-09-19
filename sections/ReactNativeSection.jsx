@@ -27,7 +27,7 @@ export default async function ReactNativeSection() {
             Ver todos
           </Link>
         </div>
-        <Carousel courses={reactNativeCourses} />
+        <Carousel courses={reactNativeCourses} category="react-native" />
       </Container>
     </section>
   );
