@@ -5,10 +5,10 @@
 
 /* Button prev and next */
 .swiper>div::after {
-  background-color: #000;
+  background-color: #000000;
   color: var(--primary-color);
-  padding: var(--size16);
-  font-size: var(--size28);
+  padding: var(--size30);
+  font-size: var(--size30);
 }
 
 .swiperSlide {
@@ -33,7 +33,7 @@
   border: 1px solid var(--primary-color);
 }
 
-@media (max-width: 36rem) {
+@media (max-width: 39.938rem) {
   .swiper>div::after {
     display: none;
   }
