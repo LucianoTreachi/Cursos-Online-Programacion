@@ -29,8 +29,16 @@ export default function Header() {
           <Logo />
 
           <div className={`${styles.navbar} ${isOpen ? styles.open : ""}`}>
-            <CloseIcon className={styles.closeIcon} onClick={toggleMenu} />
+            {/* Close Menu Button */}
+            <button
+              className={styles.closeMenuButton}
+              onClick={toggleMenu}
+              aria-label="Cerrar Menú de navegación"
+            >
+              <CloseIcon />
+            </button>
 
+            {/* Links */}
             {links.map((link, index) => (
               <Link
                 key={index}
@@ -42,11 +50,18 @@ export default function Header() {
               </Link>
             ))}
           </div>
-          <HamburgerIcon
-            className={styles.hamburgerIcon}
+
+          {/* Open Menu Button */}
+          <button
+            className={styles.openMenuButton}
             onClick={toggleMenu}
-          />
+            aria-label="Menú de navegación"
+          >
+            <HamburgerIcon />
+          </button>
         </nav>
+
+        {/* Overlay */}
         <div
           className={`${styles.overlay} ${isOpen ? styles.open : ""}`}
           onClick={toggleMenu}

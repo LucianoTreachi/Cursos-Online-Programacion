@@ -35,11 +35,11 @@
   opacity: 1;
 }
 
-.hamburgerIcon {
+.openMenuButton {
   display: none;
 }
 
-.closeIcon {
+.closeMenuButton {
   display: none;
 }
 
@@ -49,23 +49,31 @@
 }
 
 @media (max-width: 51.25rem) {
-  .hamburgerIcon {
+  .openMenuButton {
+    border: none;
+    background: none;
     display: block;
+  }
+
+  .openMenuButton svg {
     width: 35px;
     height: 35px;
     fill: var(--white);
-    cursor: pointer;
   }
 
-  .closeIcon {
+  .closeMenuButton {
+    border: none;
+    background: none;
     display: block;
     position: absolute;
     top: var(--size16);
     left: var(--size20);
+  }
+
+  .closeMenuButton svg {
     width: 45px;
     height: 45px;
     fill: var(--white);
-    cursor: pointer;
   }
 
   .navbar {
