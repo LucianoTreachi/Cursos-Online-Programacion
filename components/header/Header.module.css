@@ -92,11 +92,13 @@
     z-index: 3;
     pointer-events: none;
     transition: right .5s cubic-bezier(.4, 0, .2, 1);
+    visibility: hidden;
   }
 
   .navbar.open {
     right: 0;
     pointer-events: all;
+    visibility: visible;
   }
 
   .overlay.open {
