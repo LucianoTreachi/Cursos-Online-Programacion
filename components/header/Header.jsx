@@ -56,6 +56,7 @@ export default function Header() {
             className={styles.openMenuButton}
             onClick={toggleMenu}
             aria-label="Menú de navegación"
+            aria-expanded={isOpen}
           >
             <HamburgerIcon />
           </button>
