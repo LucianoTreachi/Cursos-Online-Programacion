@@ -20,6 +20,7 @@
   font-size: var(--size16);
   font-weight: 400;
   color: var(--primary-color);
+  text-decoration: underline;
   transition: opacity 0.4s;
 }
 
