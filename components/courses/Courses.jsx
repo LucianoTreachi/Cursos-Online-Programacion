@@ -48,9 +48,8 @@ export default function Courses({ data, category, title, description }) {
                   <Image
                     className={styles.image}
                     src={course.thumbnail}
-                    alt={`${course.title}, ${course.author}, ${course.duration}.`}
+                    alt={`${course.title}, ${course.author}, Duración: ${course.duration}, Idioma: ${course.language}.`}
                     fill
-                    loading="lazy"
                   />
                 </div>
               </Link>
