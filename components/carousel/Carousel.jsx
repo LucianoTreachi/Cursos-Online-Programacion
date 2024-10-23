@@ -66,7 +66,7 @@ export default function Carousel({ courses, category }) {
             <div className={styles.imageWrapper}>
               <Image
                 src={course.thumbnail}
-                alt={`${course.title}, ${course.author}, ${course.duration}.`}
+                alt={`${course.title}, ${course.author}, Duración: ${course.duration}, Idioma: ${course.language}.`}
                 fill
                 loading="lazy"
               />
