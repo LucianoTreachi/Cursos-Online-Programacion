@@ -19,7 +19,7 @@
   display: inline-block;
   font-weight: 300;
   opacity: .85;
-  margin-bottom: var(--size20);
+  margin: var(--size20) 0;
 }
 
 .select {

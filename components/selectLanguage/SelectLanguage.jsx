@@ -10,7 +10,7 @@ export default function SelectLanguage({ onSelectLanguage }) {
   return (
     <>
       <label htmlFor="select" className={styles.label}>
-        Selecciona idioma
+        Selecciona un idioma
       </label>
 
       <div className={styles.containerSelect}>
