@@ -7,17 +7,19 @@ import styles from "./NavigationLinks.module.css";
 export default async function NavigationLinks({
   prevHref,
   prevText,
+  prevAriaLabel,
   nextHref,
   nextText,
+  nextAriaLabel,
 }) {
   return (
     <section className={styles.section}>
       <Container>
         <div className={styles.containerButtons}>
-          <Link href={prevHref}>
+          <Link href={prevHref} aria-label={prevAriaLabel}>
             <ArrowLeftIcon /> {prevText}
           </Link>
-          <Link href={nextHref}>
+          <Link href={nextHref} aria-label={nextAriaLabel}>
             {nextText} <ArrowRightIcon />
           </Link>
         </div>

@@ -31,8 +31,10 @@ export default function FrontendPage() {
         <NavigationLinks
           prevHref={"/"}
           prevText={"inicio"}
+          prevAriaLabel={"Volver a inicio"}
           nextHref={"/backend"}
           nextText={"Backend"}
+          nextAriaLabel={"Ver cursos de Backend"}
         />
       </Suspense>
     </main>

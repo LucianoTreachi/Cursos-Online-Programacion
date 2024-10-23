@@ -23,8 +23,10 @@ export default function MobilePage() {
         <NavigationLinks
           prevHref={"/backend"}
           prevText={"Backend"}
+          prevAriaLabel={"Ver cursos de Backend"}
           nextHref={"/"}
           nextText={"Inicio"}
+          nextAriaLabel={"Volver a inicio"}
         />
       </Suspense>
     </main>

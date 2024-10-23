@@ -31,8 +31,10 @@ export default function BackendPage() {
         <NavigationLinks
           prevHref={"/frontend"}
           prevText={"Frontend"}
+          prevAriaLabel={"Ver cursos de Frontend"}
           nextHref={"/aplicaciones-moviles"}
           nextText={"Mobile"}
+          nextAriaLabel={"Ver cursos de Aplicaciones Móviles"}
         />
       </Suspense>
     </main>
