@@ -8,24 +8,30 @@ export default function SelectLanguage({ onSelectLanguage }) {
   }
 
   return (
-    <div className={styles.containerSelect}>
-      <select
-        className={styles.select}
-        name="select"
-        id="select"
-        onChange={handleLanguageChange}
-      >
-        <option className={styles.option} value="" defaultValue>
-          Idioma
-        </option>
-        <option className={styles.option} value="Español">
-          Español
-        </option>
-        <option className={styles.option} value="Inglés">
-          Inglés
-        </option>
-      </select>
-      <ArrowDownIcon />
-    </div>
+    <>
+      <label htmlFor="select" className={styles.label}>
+        Selecciona idioma
+      </label>
+
+      <div className={styles.containerSelect}>
+        <select
+          className={styles.select}
+          name="select"
+          id="select"
+          onChange={handleLanguageChange}
+        >
+          <option className={styles.option} value="" defaultValue>
+            Todos
+          </option>
+          <option className={styles.option} value="Español">
+            Español
+          </option>
+          <option className={styles.option} value="Inglés">
+            Inglés
+          </option>
+        </select>
+        <ArrowDownIcon />
+      </div>
+    </>
   );
 }

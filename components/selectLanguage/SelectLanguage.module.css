@@ -6,13 +6,20 @@
 
 .containerSelect svg {
   position: absolute;
-  top: 60%;
+  top: 56%;
   transform: translateY(-60%);
   right: .6rem;
   width: var(--size22);
   height: var(--size22);
   opacity: .85;
   pointer-events: none;
+}
+
+.label {
+  display: inline-block;
+  font-weight: 300;
+  opacity: .85;
+  margin-bottom: var(--size20);
 }
 
 .select {
